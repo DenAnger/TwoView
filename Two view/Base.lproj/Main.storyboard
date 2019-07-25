@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Two_view" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XFs-8j-lvu" userLabel="ViewOne">
+                                <rect key="frame" x="20" y="40" width="335" height="286.5"/>
+                                <color key="backgroundColor" red="0.62273925539999997" green="0.1061674133" blue="0.079054988919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bH-25-m99" userLabel="ViewTwo">
+                                <rect key="frame" x="20" y="360.5" width="335" height="286.5"/>
+                                <color key="backgroundColor" red="0.58153182511963686" green="1" blue="0.41704898458103323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.58545609710000002" blue="0.1149711466" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8bH-25-m99" secondAttribute="bottom" constant="20" id="1ea-4m-qGO"/>
+                            <constraint firstItem="8bH-25-m99" firstAttribute="height" secondItem="XFs-8j-lvu" secondAttribute="height" id="7ah-We-c9B"/>
+                            <constraint firstItem="8bH-25-m99" firstAttribute="width" secondItem="XFs-8j-lvu" secondAttribute="width" id="LDq-Md-62E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8bH-25-m99" secondAttribute="bottom" constant="20" id="Nxr-9Z-dJU"/>
+                            <constraint firstItem="XFs-8j-lvu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Pf6-8v-4I2"/>
+                            <constraint firstItem="XFs-8j-lvu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Uxx-dD-6MC"/>
+                            <constraint firstItem="8bH-25-m99" firstAttribute="top" secondItem="XFs-8j-lvu" secondAttribute="bottom" constant="34" id="bys-I2-wFi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XFs-8j-lvu" secondAttribute="trailing" constant="20" id="doT-49-SBH"/>
+                            <constraint firstItem="8bH-25-m99" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gDb-p0-bbp"/>
+                            <constraint firstItem="XFs-8j-lvu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="gjA-Zp-b1L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8bH-25-m99" secondAttribute="trailing" constant="20" id="yhJ-U0-1Z3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="113.83928571428571"/>
+        </scene>
+    </scenes>
+</document>
