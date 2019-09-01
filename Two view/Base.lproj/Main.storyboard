@@ -29,11 +29,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.58545609710000002" blue="0.1149711466" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8bH-25-m99" secondAttribute="bottom" constant="20" id="1ea-4m-qGO"/>
                             <constraint firstItem="8bH-25-m99" firstAttribute="height" secondItem="XFs-8j-lvu" secondAttribute="height" id="7ah-We-c9B"/>
-                            <constraint firstItem="8bH-25-m99" firstAttribute="width" secondItem="XFs-8j-lvu" secondAttribute="width" id="LDq-Md-62E"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8bH-25-m99" secondAttribute="bottom" constant="20" id="Nxr-9Z-dJU"/>
-                            <constraint firstItem="XFs-8j-lvu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Pf6-8v-4I2"/>
                             <constraint firstItem="XFs-8j-lvu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Uxx-dD-6MC"/>
                             <constraint firstItem="8bH-25-m99" firstAttribute="top" secondItem="XFs-8j-lvu" secondAttribute="bottom" constant="34" id="bys-I2-wFi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XFs-8j-lvu" secondAttribute="trailing" constant="20" id="doT-49-SBH"/>
